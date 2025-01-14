@@ -1,6 +1,6 @@
 import Express from 'express';
 import { Request, Response } from 'express';
-const app = Express();
+const app: Express.Application = Express();
 const PORT = process.env.PORT || 5000; // Changed default port to 5000
 
 interface MessageResponse {
@@ -24,3 +24,5 @@ process.on('SIGINT', () => {
     process.exit(0);
   });
 });
+
+export default app;
