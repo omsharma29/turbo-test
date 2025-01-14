@@ -7,6 +7,7 @@ function App() {
     <>
     <div>
       <Button>HELLO TEST</Button></div>
+      <div>hello from Om</div>
     </>
   )
 }
